@@ -1,0 +1,53 @@
+.login-wrapper input, .login-wrapper button, .login-wrapper textarea, .login-wrapper select {
+  font-size: inherit;
+}
+
+@media only screen and (max-width: 746px) {
+  .login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0 !important;
+  }
+}
+
+.noauth-logo {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 746px) {
+  .noauth-logo {
+    color: black;
+    font-size: 12px;
+    top: 0;
+    left: 0;
+    border: none;
+  }
+}
+
+.noauth-logo .titleLogo {
+  width: 90px;
+}
+
+.form-control.select2 {
+  height: initial !important;
+}
+
+select.form-control {
+  height: initial !important;
+}
+
+.solOneDiv .solOneForm {
+  margin-top: 60px;
+}
+
+.solOneDiv .solOneForm .form-group input {
+  font-size: 17px !important;
+  padding: 15px;
+}
+
+.solOneDiv .submitOneSol {
+  margin-top: 60px;
+}
+/*# sourceMappingURL=login.css.map */

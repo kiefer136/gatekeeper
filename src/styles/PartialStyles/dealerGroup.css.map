@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,gBAAgB;CAC5B;;AAED,AACI,kBADc,CACd,CAAC,CAAC;EACE,SAAS,EAAE,OAAO;CACrB;;AAEL,AAAA,QAAQ,CAAC;EACL,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "dealerGroup.scss"
+    ],
+    "names": [],
+    "file": "dealerGroup.css"
+}

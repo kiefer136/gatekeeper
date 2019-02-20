@@ -1,0 +1,45 @@
+.login-wrapper {
+    input, button, textarea, select {
+        font-size: inherit;
+    }
+    @media only screen and (max-width: 746px) {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0 !important;
+    }
+}
+.noauth-logo {
+    background-color: transparent;
+    color: white;
+    border: none;
+    @media only screen and (max-width: 746px) {
+        color: black;
+        font-size: 12px;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+    .titleLogo {
+        width: 90px;
+    }
+}
+.form-control.select2 {
+    height: initial!important;
+}
+select.form-control {
+    height: initial!important;
+}
+.solOneDiv {
+    .solOneForm {
+        margin-top: 60px;
+        .form-group {
+            input {
+                font-size: 17px!important;
+                padding: 15px;
+            }
+        }
+    }
+    .submitOneSol {
+        margin-top: 60px;
+    }
+}

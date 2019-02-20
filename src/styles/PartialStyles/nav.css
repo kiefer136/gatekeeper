@@ -1,0 +1,27 @@
+.redCircle {
+  top: 5px;
+}
+
+nav .headerNotifications {
+  margin-top: 5px;
+}
+
+.nav .nav-link.active {
+  font-weight: 600;
+}
+
+.br-logo {
+  border-right: 0;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.16);
+}
+
+.br-logo .gateKeeper-Logo {
+  width: 150px;
+}
+
+.br-header {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.16);
+}
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,1269 @@
+.redCircle {
+  top: 5px;
+}
+
+nav .headerNotifications {
+  margin-top: 5px;
+}
+
+.nav .nav-link.active {
+  font-weight: 600;
+}
+
+.br-logo {
+  border-right: 0;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.16);
+}
+
+.br-logo .gateKeeper-Logo {
+  width: 150px;
+}
+
+.br-header {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.16);
+}
+
+.inner-Container {
+  padding: 30px 0 30px 30px;
+}
+
+.addContactButtons a {
+  font-size: initial;
+}
+
+.cardRow {
+  margin-bottom: 15px;
+}
+
+.login-wrapper input, .login-wrapper button, .login-wrapper textarea, .login-wrapper select {
+  font-size: inherit;
+}
+
+@media only screen and (max-width: 746px) {
+  .login-wrapper {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0 !important;
+  }
+}
+
+.noauth-logo {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 746px) {
+  .noauth-logo {
+    color: black;
+    font-size: 12px;
+    top: 0;
+    left: 0;
+    border: none;
+  }
+}
+
+.noauth-logo .titleLogo {
+  width: 90px;
+}
+
+.form-control.select2 {
+  height: initial !important;
+}
+
+select.form-control {
+  height: initial !important;
+}
+
+.solOneDiv .solOneForm {
+  margin-top: 60px;
+}
+
+.solOneDiv .solOneForm .form-group input {
+  font-size: 17px !important;
+  padding: 15px;
+}
+
+.solOneDiv .submitOneSol {
+  margin-top: 60px;
+}
+
+body {
+  color: #474952;
+  overflow-y: scroll;
+}
+
+input, button {
+  font-size: initial !important;
+}
+
+.bg-br-primary {
+  background-color: #1d2939;
+}
+
+.appContainer {
+  padding-right: 0px;
+  min-height: 85vh;
+  max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .appContainer {
+    max-width: 100vw;
+    padding: 0 0;
+  }
+}
+
+.homePage {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.homePage .table {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .homePage .sideBarLeft {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .homePage .schedWrap {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homePage .messCard {
+    padding: 15px;
+  }
+}
+
+.themeFlexWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.themeFlexWrap .homeBody {
+  -ms-flex-preferred-size: 88%;
+      flex-basis: 88%;
+}
+
+@media (max-width: 768px) {
+  .themeFlexWrap .homeBody {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding-left: 15px;
+  }
+}
+
+.themeFlexWrap .homeBody .bg-blue {
+  background-color: #3B6998;
+}
+
+.themeFlexWrap .homeBody .bg-tealBlue {
+  background-color: #17a2b8;
+}
+
+.sideBarLeft {
+  -ms-flex-preferred-size: 12%;
+      flex-basis: 12%;
+  min-width: 225px;
+}
+
+@media (max-width: 768px) {
+  .sideBarLeft {
+    min-width: 160px;
+  }
+}
+
+.contactsPage {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .contactsPage .br-subleft {
+    display: none;
+  }
+  .contactsPage.SideBar {
+    margin-left: 0;
+  }
+}
+
+.contactsPage .ContactRow:hover {
+  cursor: pointer;
+}
+
+.contactsPage .ContactRow button {
+  padding: 1px 10px;
+}
+
+.contactsPage .addContactButtons {
+  max-width: 500px;
+}
+
+.contactsPage .addContactButtons select {
+  max-width: 225px;
+  display: inline-block;
+}
+
+.contactsPage .addContactButtons select option {
+  padding: 3px 0px;
+}
+
+.contactsPage .addContactButtons button {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.contactsPage .addContactButtons a {
+  display: inline-block;
+}
+
+.contactsPage .inner-Container .arrowLeft {
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.contactsPage .contactHeaderText {
+  display: none;
+}
+
+.contactsPage .hasHeader .contactHeaderText {
+  display: inline-block;
+}
+
+.contactsPage .hasHeader .form-group {
+  display: inline-block;
+}
+
+.contactsPage .hasHeader .form-group input {
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contactsPage .bg-info th {
+  background-color: #30567c !important;
+}
+
+.contactsPage .kt-mainpanel .card .table {
+  background-color: white;
+}
+
+.br-subleft {
+  width: 240px;
+}
+
+@media (max-width: 768px) {
+  .br-subleft {
+    width: 160px;
+  }
+}
+
+.br-subleft .navLinkIcon {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  word-wrap: break-word;
+}
+
+.br-subleft .navLinkIcon i {
+  padding-right: 4px;
+  font-size: 18px;
+}
+
+.br-subleft .navLinkIcon.noFlex {
+  display: block;
+}
+
+.br-subleft .navLinkIcon.noFlex:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.br-subleft .mg-b-0 {
+  font-size: 14px;
+}
+
+.SideBar {
+  margin-left: 280px;
+}
+
+@media (max-width: 768px) {
+  .SideBar {
+    margin-left: 160px;
+  }
+}
+
+.br-footer {
+  text-align: right;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 240px;
+}
+
+@media (max-width: 768px) {
+  .br-footer {
+    margin-left: 0px;
+  }
+}
+
+.br-mailbox-list {
+  min-width: 240px;
+}
+
+@media (max-width: 768px) {
+  .br-mailbox-list-header {
+    height: 45px;
+  }
+}
+
+.br-mailbox-list-item.selected {
+  background-color: #d9e2ea;
+}
+
+.br-mailbox-body {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.contact .card-body hr {
+  border-bottom: 2px solid #a2a2a2;
+  margin: 10px -12px;
+}
+
+.solicSent .title {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+@media (max-width: 768px) {
+  .mg-sm-t-5 {
+    margin-top: 5px;
+  }
+}
+
+.contactCard {
+  padding-left: 15px;
+}
+
+.contactCard .cardRow {
+  padding-left: 0px;
+}
+
+@media (max-width: 768px) {
+  .contactCard .card-body {
+    padding: 15px;
+  }
+}
+
+.contactDeleteButton {
+  position: absolute;
+  bottom: 0;
+  left: 75px;
+}
+
+#spinnerWrap {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+}
+
+#spinnerWrap.showHeader {
+  top: 60px;
+}
+
+#spinnerWrap.showHeader .sk-folding-cube {
+  bottom: 30px;
+}
+
+#spinnerWrap h2 {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#confirmRequestSpinner {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 49%;
+}
+
+#confirmRequestSpinner h1 {
+  white-space: nowrap;
+}
+
+.requestSubmitForm {
+  min-height: 280px;
+}
+
+.requestSubmitForm .confirmRequestMessage {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.requestSubmitForm .confirmRequestMessage .confirmCheck {
+  color: green;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.infoSumBox {
+  position: relative;
+}
+
+.infoSumBox p {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.infoSumBox h2 {
+  display: inline-block;
+}
+
+.infoSumBox .cardNumber {
+  display: inline-block;
+}
+
+.infoSumBox .flexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.infoSumBox .flexBox p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.btn-info {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-info:hover {
+  background-color: #5c0a0c;
+  border-color: #5c0a0c;
+}
+
+.btn-blue {
+  background-color: #0866C6;
+  border-color: #0866C6;
+  color: white !important;
+}
+
+.btn-blue:hover {
+  background-color: #0050a2;
+  border-color: #0050a2;
+}
+
+.btn-Success-Blue {
+  display: block;
+  background-color: #0866C6;
+  border-color: #0866C6;
+  margin-bottom: 15px;
+}
+
+.btn-Success-Blue:hover {
+  background-color: #0866C6;
+  border-color: #0866C6;
+}
+
+.btn-Success-Blue.disabled {
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+  color: #5a5a5a;
+}
+
+.btn-Success-Blue:disabled {
+  background-color: #e4e4e4;
+  border-color: #e4e4e4;
+  color: #5a5a5a;
+}
+
+.userIcon {
+  font-size: 24px;
+}
+
+.userIcon i {
+  margin-right: 10px;
+}
+
+.form-layout-5 {
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .form-layout-5 {
+    padding: 15px;
+  }
+}
+
+#manageAccount {
+  margin-top: 0;
+}
+
+#manageAccount .form-control {
+  max-width: 475px;
+}
+
+#manageAccount .form-layout {
+  border: none;
+}
+
+#manageAccount .form-control-label {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#manageAccount .fa-check-circle {
+  color: #00b300;
+}
+
+#manageAccount .row {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  #mailBody {
+    margin-bottom: 20vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #mailBody .buttonWrapMobile {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #mailBody .br-msg-header {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #mailBody .br-msg-body {
+    margin: 15px;
+  }
+  #mailBody .br-msg-body h6 {
+    margin-bottom: 10px;
+  }
+}
+
+#mailBody textarea {
+  font-size: initial;
+}
+
+#mailBody .buttonWrap {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  border-radius: 3px;
+  margin-right: 25px;
+}
+
+@media (max-width: 1500px) {
+  #mailBody .buttonWrap {
+    -ms-flex-preferred-size: 35%;
+        flex-basis: 35%;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #mailBody .buttonWrap {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-right: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+#mailBody .buttonWrap .buttons {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+#mailBody .buttonWrap .buttons.butHide {
+  height: 0;
+}
+
+#mailBody .buttonWrap .buttons button {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin: 2px 0;
+  font-size: 14px !important;
+}
+
+#mailBody .buttonWrap .buttons .btn-request {
+  color: black;
+}
+
+#mailBody .unarchive {
+  color: #dc3545;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#mailBody .textAreaMail {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#mailBody .textAreaMail textarea {
+  min-height: 130px;
+}
+
+@media (max-width: 768px) {
+  #mailBody .textAreaMail {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 15px;
+  }
+}
+
+#mailBody .flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  #mailBody .flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-right: 15px;
+  }
+}
+
+#mailBody .mailDetailsCard {
+  background: white;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  margin: 30px;
+}
+
+.clockInside {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-transition: all  0.5s ease;
+  transition: all  0.5s ease;
+  height: 565px;
+}
+
+.clockInside .im-date-picker {
+  max-height: 65%;
+}
+
+.clockInside .im-date-picker .toolbar {
+  color: #0866C6;
+}
+
+.clockInside .im-date-picker .toolbar .current-date {
+  text-decoration: none;
+}
+
+.clockInside .im-date-picker thead td {
+  color: #0866C6;
+}
+
+.clockInside .im-date-picker td.current {
+  background-color: #0866C6;
+}
+
+.clockInside .timeSelectGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+}
+
+.clockInside .timeSelectGroup .timeDropdown {
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #0866c6;
+}
+
+.clockInside .im-input-moment {
+  display: block;
+  margin: 0 auto;
+}
+
+.clockInside.calHide {
+  height: 0;
+}
+
+.clockInside .selectedTime {
+  margin: 10px 0;
+  text-align: center;
+  color: black;
+}
+
+.clockInside .selectedTimeBottom {
+  font-size: 22px;
+  margin: 15px 0;
+  text-align: center;
+  color: black;
+}
+
+.clockInside .closeWindow {
+  font-weight: 700;
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mailPage {
+    width: 100%;
+  }
+}
+
+.mailPage .br-mailbox-list {
+  left: 0px;
+  position: fixed;
+  width: 280px;
+}
+
+.mailPage .br-mailbox-list .search {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mailPage .br-mailbox-list .search .searchWrap {
+  display: inline-block;
+}
+
+.mailPage .br-mailbox-list .search .searchWrap .form-group {
+  margin: 0;
+}
+
+.mailPage .br-mailbox-list .search .searchWrap input {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .mailPage .br-mailbox-list {
+    width: 50%;
+    right: 0;
+    left: initial;
+    min-width: 0;
+  }
+}
+
+.mailPage .mainBody {
+  display: inline-block;
+  width: 100%;
+}
+
+.mailPage .declinedSolic {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mailPage .sideBar .br-subleft {
+    top: 65%;
+    width: 50%;
+  }
+  .mailPage .sideBar .br-nav-mailbox h5 {
+    margin: 5px 0;
+  }
+}
+
+.mailPage .mailSideBar {
+  width: 240px;
+}
+
+@media (max-width: 768px) {
+  .mailPage .mailSideBar .br-mailbox-list {
+    top: 65%;
+  }
+}
+
+.mailPage .tx-initial {
+  text-transform: initial;
+}
+
+.mailPage a.tx-initial {
+  color: #007eff;
+}
+
+.mailPage a.tx-initial:hover {
+  color: #ff3f51;
+}
+
+.br-msg-body {
+  padding: 20px;
+}
+
+.br-msg-body h6 {
+  font-size: initial;
+}
+
+.br-msg-body p {
+  color: #4f5156;
+  font-size: initial;
+}
+
+.m-calendar {
+  display: inline-block;
+}
+
+.m-calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.m-calendar td {
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+  color: #0866C6;
+  border: 1px solid #0866C6;
+}
+
+.m-calendar thead td {
+  color: #0866C6;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.m-calendar tbody td {
+  color: #666666;
+}
+
+.m-calendar tbody td:hover {
+  background: #0866C6;
+  border-color: #0866C6;
+  color: #fff;
+}
+
+.m-calendar .current-day {
+  color: #fff;
+  background-color: #0866C6;
+  font-weight: bold;
+}
+
+.m-calendar .prev-month,
+.m-calendar .next-month {
+  color: #999999;
+}
+
+.m-calendar .toolbar {
+  line-height: 30px;
+  color: #0866C6;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.m-calendar .toolbar button {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  border: 1px solid #0866C6;
+  border-radius: 50%;
+  background: #0866C6;
+  font-size: 20px;
+  padding: 0;
+  text-align: center;
+  outline: 0;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.m-calendar .toolbar .prev-month {
+  float: left;
+}
+
+.m-calendar .toolbar .next-month {
+  float: right;
+}
+
+.m-calendar .toolbar .current-date {
+  color: #0866C6;
+}
+
+.m-time {
+  color: #fff;
+  padding-top: 50px;
+}
+
+.m-time .showtime {
+  text-align: center;
+}
+
+.m-time .separater {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0866C6;
+  width: 32px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.m-time .time-text {
+  position: relative;
+  left: -10px;
+  font-size: 15px;
+  color: #0866C6;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.m-time .sliders {
+  padding: 0 10px;
+}
+
+.m-time .time {
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  font-size: 38px;
+  line-height: 65px;
+  background-color: #0866C6;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.im-btn {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.im-btn:before {
+  margin-right: 6px;
+}
+
+.m-input-moment {
+  display: inline-block;
+  width: 330px;
+  padding: 12px 15px 0px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+}
+
+.m-input-moment .options {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.m-input-moment .options button {
+  float: left;
+  width: 50%;
+  color: #0866C6;
+  text-align: center;
+  font-size: 16px;
+  padding: 7px;
+  border: 1px solid #0866C6;
+  border-radius: 3px;
+}
+
+.m-input-moment .options button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.m-input-moment .options button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.m-input-moment .options button.is-active {
+  color: #ffffff;
+  background-color: #0866C6;
+}
+
+.m-input-moment .tab {
+  display: none;
+  height: 310px;
+}
+
+.m-input-moment .tab.is-active {
+  display: block;
+}
+
+.m-input-moment .tabs {
+  margin-bottom: 11px;
+}
+
+.m-input-moment .btn-save {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #0866C6;
+  padding: 12px 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.u-slider-time {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 3px;
+  height: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.u-slider-time .value {
+  position: absolute;
+  background-color: #0866C6;
+  border-radius: 3px;
+  top: 0;
+  height: 100%;
+}
+
+.u-slider-time .handle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+}
+
+.u-slider-time .handle:after {
+  position: relative;
+  display: block;
+  content: '';
+  top: -20px/2;
+  left: -12px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: 3px solid #0866C6;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.twoSideBars {
+  margin-left: 450px;
+}
+
+@media (max-width: 768px) {
+  .twoSideBars {
+    margin-left: 0 !important;
+  }
+}
+
+.inner-Container .row {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .inner-Container {
+    padding: 30px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .br-header-left .navicon-left.hidden-lg-up {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-sm-row {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: row nowrap !important;
+            flex-flow: row nowrap !important;
+  }
+  .flex-sm-row .nav-link {
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+}
+
+#helpBox {
+  position: fixed;
+  right: 15px;
+  top: 45px;
+  z-index: 10000;
+}
+
+@media (max-width: 425px) {
+  .br-header .userIcon {
+    font-size: 15px;
+  }
+}
+
+.mainHeader {
+  min-height: 60px;
+}
+
+.requirePaymentModal {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.requirePaymentModal .priceTitleWrap {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.requirePaymentModal .priceTitle {
+  display: block;
+}
+
+@media (max-width: 430px) {
+  .requirePaymentModal .modal {
+    position: relative;
+  }
+}
+
+.requirePaymentModal .discountField {
+  border: 1px solid #17A2B8;
+  border-radius: 5px;
+  padding: 5px 0;
+  background-color: #f7fbff;
+}
+
+#solicitationForm .solicHeader {
+  line-height: 35px;
+}
+
+#solicitationForm strong {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.contactsSetup {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .contactsSetup {
+    margin-top: 0px;
+  }
+}
+
+.contactsSetup .max-width-button {
+  width: 100%;
+}
+
+.contactsSetup .buttonWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contactsSetup .buttonWrap input {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  max-width: 48%;
+}
+
+@media (max-width: 768px) {
+  .contactsSetup .buttonWrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .contactsSetup .buttonWrap input {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.kt-mainpanel {
+  padding-top: 0px;
+  margin-left: 0;
+}
+/*# sourceMappingURL=styles.css.map */
